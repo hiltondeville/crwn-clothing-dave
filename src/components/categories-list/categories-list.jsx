@@ -1,11 +1,4 @@
-
-
-import Directory from './components/directory/directory.jsx';
-
-
-const App = () => {
-
-  const categories = [
+const categories = [
     {
       "id": 1,
       "title": "hats",
@@ -32,13 +25,3 @@ const App = () => {
       "imageUrl": "https://i.ibb.co/R70vBrQ/men.png"
     }
   ]
-
-
-
-  return (
-    <Directory categories={categories}/>
-
-  );
-}
-
-export default App;
