@@ -20,10 +20,17 @@ const Navigation = () => {
            <Link
         //    use link component so that other browsers understand the functionality
             className="nav-link" to='/shop'>
-                SHOP
+                Shop
+           </Link>
+           <Link
+        //    use link component so that other browsers understand the functionality
+            className="nav-link" to='/sign-in'>
+                Sign In
            </Link>
           </div>
         </div>
+        {/* outlet goes here as this is where the main home is rendered. If it is put
+        above the nav then the nav will be at the bottom */}
         <Outlet />
       </Fragment>
     );
